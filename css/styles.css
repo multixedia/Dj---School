@@ -1,0 +1,554 @@
+/*CI Color*/
+@import url("jquery.swipeshow.css");
+/******************************************** 
+	Styled by www.multixedia.de
+	E-Mail: info@multixedia.de
+*********************************************/
+/*CI Color*/
+/*FONT*/
+@font-face {
+  font-family: 'RockwellRegular';
+  src: url('font/rock.eot');
+  src: url('font/rock.eot') format('embedded-opentype'), url('font/rock.woff') format('woff'), url('font/rock.ttf') format('truetype'), url('font/rock.svg#RockwellRegular') format('svg');
+}
+/* MIXINS */
+/* ==== GENERAL ==== */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'RockwellRegular';
+  font-size: 15px;
+  color: #fff;
+  background: #404041;
+  padding-top: 50px;
+}
+.bg {
+  width: 100%;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  z-index: -1;
+}
+a,
+a:focus {
+  color: #14b4ff;
+  text-decoration: underline;
+}
+a:hover {
+  color: #14b4ff;
+  text-decoration: none;
+}
+h2 {
+  font-size: 20px;
+  color: #14b4ff;
+}
+h3 {
+  font-size: 17px;
+}
+.title-nospace {
+  margin: 0;
+}
+.preis-info {
+  margin: 15px 0 0 0;
+}
+/* ==== DESKTOP + DEFAULT = 1000px Wrapper ==== */
+.logo-devices {
+  display: none;
+}
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0px 0 0 0;
+}
+header {
+  background: #404041;
+  border-top: 5px solid #14b4ff;
+  height: 64px;
+  -webkit-box-shadow: #666666 3px 3px 3px;
+  -moz-box-shadow: #666666 3px 3px 3px;
+  box-shadow: #666666 3px 3px 3px;
+}
+header .logo {
+  position: absolute;
+  top: -16px;
+  left: 35%;
+  z-index: 10;
+}
+header .span12 {
+  margin: 0 auto;
+  float: none;
+  width: 1000px;
+  position: relative;
+}
+header nav {
+  text-align: center;
+  position: relative;
+  height: inherit;
+}
+header nav .container {
+  width: 1000px;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  float: left;
+  list-style: none;
+}
+header nav ul li a {
+  padding: 22px 25px;
+  display: block;
+  color: #14b4ff;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+}
+header nav ul li a:hover,
+header nav ul li a:focus {
+  background: #14b4ff;
+  color: #404041;
+  text-decoration: none;
+  outline: none;
+}
+header nav ul li.active a {
+  background: #14b4ff;
+  color: #404041;
+}
+header nav .nav-left {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  z-index: 15;
+}
+header nav .nav-right {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 20;
+  color: #404041;
+}
+.clear {
+  clear: both;
+  float: left;
+}
+.service-list li {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+/*Price*/
+#preise .price {
+  text-align: center;
+}
+#preise .price .span4 {
+  margin-left: 0;
+  width: 33.3%;
+}
+#preise .price .span4 .attribute {
+  padding: 10px 0;
+}
+#preise .price .span12 {
+  width: 100%;
+}
+#preise .price > div {
+  border: 1px solid #ccc;
+}
+#preise .price h3 {
+  margin: 0 0 0 0;
+  background: #ccc;
+  color: #404041;
+}
+#preise .price .highlight {
+  background-color: #14b4ff;
+  color: #fff;
+  font-weight: bold;
+}
+#startseite {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+#startseite .container-fluid {
+  padding: 0;
+}
+#startseite h1 {
+  color: #14b4ff;
+  font-size: 30px;
+  border-bottom: 1px solid #14b4ff;
+}
+/* == SLIDER == */
+.slider {
+  border-bottom: 5px solid #14b4ff;
+  margin: 20px 0 25px 0;
+}
+.swipeshow {
+  width: 1000px;
+  min-height: 410px;
+  position: relative;
+}
+.swipeshow .dots {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.swipeshow .dots .dot-item {
+  border: none;
+  width: 6px;
+  height: 12px;
+  display: block;
+  float: left;
+  background: #404041;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.swipeshow .dots .dot-item span {
+  display: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.swipeshow .dots .active {
+  background: #14b4ff;
+}
+h2 {
+  font-family: 'RockwellRegular';
+}
+/* == SLIDER END == */
+.main-content {
+  padding-top: 50px;
+}
+.main-content > div {
+  margin-top: 150px;
+}
+.main-content > div:first-child {
+  margin-top: 0;
+}
+.main-content .container-fluid {
+  padding: 0;
+  padding-top: 0px;
+}
+.main-content > .container-fluid {
+  padding-top: 70px;
+}
+.main-content .span12 {
+  width: 1000px;
+  margin-left: 0;
+}
+.welcome-area {
+  height: 50%;
+  width: 100%;
+}
+.dj-school-image {
+  float: left;
+  margin: 0 20px 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #14b4ff;
+}
+.broschuere-img img {
+  width: 300px;
+  clear: both;
+  float: left;
+}
+.broschuere-link {
+  clear: both;
+  float: left;
+  padding-top: 10px;
+}
+@media (min-width: 1250px) {
+  body {
+    background: url("../img/bg.png") no-repeat #404041;
+    background-position: right 70%;
+  }
+}
+@media (max-width: 999px) {
+  .navbar-fixed-top {
+    position: fixed;
+  }
+  .main-content .span12 {
+    width: 100%;
+  }
+  #wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  #wrapper .slider {
+    width: 100%;
+  }
+  .swipeshow {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 320px;
+  }
+  .navbar-fixed-top {
+    margin-bottom: 0px;
+  }
+  header {
+    height: 50px;
+  }
+  header .span12 {
+    width: 100%;
+  }
+  header nav ul {
+    position: relative;
+  }
+  header nav ul li a {
+    padding: 15px;
+  }
+  header nav .nav-left {
+    position: relative;
+    float: left;
+    left: auto;
+  }
+  header nav .nav-right {
+    position: relative;
+    float: right;
+    right: auto;
+  }
+  header .logo {
+    position: relative;
+    left: auto;
+    top: -6px;
+  }
+  header .logo img {
+    width: 70%;
+  }
+}
+@media (min-width: 769px) and (max-width: 999px) {
+  header {
+    height: 50px;
+  }
+  header .span12 {
+    width: 100%;
+  }
+  header .span12 .navbar .btn-navbar {
+    display: none;
+  }
+  header .nav-collapse,
+  header .nav-collapse.collapse {
+    overflow: visible;
+  }
+  header .nav-collapse {
+    width: 100%;
+  }
+  header nav ul {
+    position: relative;
+  }
+  header nav ul li a {
+    padding: 15px;
+  }
+  header nav .nav-left {
+    position: relative;
+    float: left;
+    left: auto;
+  }
+  header nav .nav-right {
+    position: absolute;
+    float: right;
+    margin-right: 0px;
+    right: 0;
+  }
+  header .logo {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    top: -6px;
+    left: auto !important;
+  }
+  header .logo img {
+    width: 70%;
+  }
+  #preise .price {
+    text-align: center;
+    font-size: 12px;
+  }
+  #preise .price .span4 {
+    margin-left: 0;
+    float: left;
+    width: 33.3%;
+  }
+  #preise .price .attribute {
+    float: left;
+    width: 48.5%;
+  }
+  #preise .price .dauer {
+    width: 100%;
+  }
+}
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 50px;
+  }
+  #wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .navbar-fixed-top {
+    margin-bottom: 0;
+  }
+  .span12 {
+    width: 100%;
+  }
+  .swipeshow {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 240px;
+  }
+  .slider {
+    border-bottom: 5px solid #14b4ff;
+    margin: 0px 0 25px 0;
+  }
+  .navbar .btn-navbar {
+    margin: 10px 0 0 30px;
+    float: left;
+  }
+  header nav .nav-collapse {
+    top: 10px;
+  }
+  header nav ul {
+    width: 100%;
+    position: relative;
+  }
+  header nav ul li {
+    width: 100%;
+    clear: both;
+  }
+  header nav ul li a {
+    padding: 15px;
+    width: 100%;
+    background: url("../img/bg-nav-collapse.png");
+    display: block;
+  }
+  header nav .nav-left {
+    position: relative;
+    float: left;
+    left: auto;
+  }
+  header nav .nav-right {
+    position: relative;
+    float: left;
+    clear: both;
+    margin-right: 0px;
+    right: auto;
+  }
+  header nav .logo {
+    display: none;
+  }
+  header nav .logo-devices {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: -5px;
+    right: 0;
+    z-index: 999;
+  }
+  #preise .price {
+    text-align: center;
+    font-size: 12px;
+  }
+  #preise .price .span4 {
+    margin-left: 0;
+    float: left;
+    width: 33.3%;
+  }
+  #preise .price .span4 .span6 {
+    margin-left: 0;
+  }
+  #preise .price .attribute {
+    float: left;
+    width: 49%;
+  }
+  #preise .price .dauer {
+    width: 100%;
+  }
+}
+/* ==== Mobile Landscape ==== */
+@media (max-width: 570px) {
+  body {
+    font-size: 13px;
+  }
+  .service-list li {
+    font-size: 15px;
+  }
+  header .span12 {
+    width: 100%;
+  }
+  header .navbar .btn-navbar {
+    margin: 10px 0 0 10px;
+    float: left;
+  }
+  header nav .nav-collapse {
+    top: 10px;
+  }
+  header nav ul {
+    width: 100%;
+    position: relative;
+  }
+  header nav ul li {
+    width: 100%;
+    clear: both;
+    text-align: left;
+  }
+  header nav ul li a {
+    padding: 15px;
+    width: 100%;
+    background: url("../img/bg-nav-collapse.png");
+    display: block;
+  }
+  header nav .nav-left {
+    position: relative;
+    float: left;
+    left: auto;
+  }
+  header nav .nav-right {
+    position: relative;
+    float: left;
+    clear: both;
+    margin-right: 0px;
+    right: auto;
+  }
+  header nav .logo {
+    display: none;
+  }
+  header nav .logo-devices {
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 13px;
+    right: -25px;
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin: 0;
+  }
+  .swipeshow {
+    min-height: 196px;
+  }
+  #preise .price .span4 {
+    margin-left: 0;
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+  #preise .price .span4 .span6 {
+    margin-left: 0;
+  }
+}
+/* ==== Mobile Portrait ==== */
+@media (max-width: 320px) {
+  .swipeshow {
+    min-height: 130px;
+  }
+}
