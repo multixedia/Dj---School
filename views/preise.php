@@ -52,8 +52,8 @@
 	</div>
 
 	<p class="preis-info">
-		Der Teilnehmer hat die Wahl <strong>einen Vertrag über 1 Jahr oder ein halbes Jahr auszuwählen.</strong><br />
-		<em>Bei einem 1 Jahresvertrag gibt es einen Rabatt von 10 % auf dem Gesamtbetrag.</em>
+		Der Teilnehmer hat die Wahl <strong>zwischen einem halbjährigen oder ganzjährigen Kurs.</strong><br />
+		<em>Bei einem ganzjährigen Kurs gibt es einen Rabatt von 10 % auf dem Gesamtbetrag.</em>
 	</p>
 
 </section>

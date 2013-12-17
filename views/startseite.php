@@ -2,8 +2,8 @@
 <h1>Willkommen - DJ School Bonn - </h1>
 <section class="content">
 	<div class="row">
-		<div class="span4">
-			<img src="img/dj-school-image.jpg" alt="DJ School" class="dj-school-image">
+		<div class="span4 img-circle" style="border:2px solid rgba(20, 180, 255, 1);">
+			<img class="img-circle" style="border:none;" border="0" src="img/dj-school-image.jpg" alt="DJ School" class="dj-school-image">
 		</div>
 		<div class="span6">
 			<p>
